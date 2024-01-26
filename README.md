@@ -42,7 +42,7 @@ s
     </tr>
     <tr>
       <td> <code>git add</code></td>
-      <td>Adiciona os arquivos modificados para área de preparação para commitar</td>
+      <td>Adiciona os arquivos modificados para área de preparação (staging area) para commitar</td>
       <td></td>
     </tr>
     <tr>
@@ -82,7 +82,6 @@ s
       <td>Mostra o históico de commits na branch, junto autor e datas</td>
       <td></td>
     </tr>
-
   </tbody>
 </table>
 
@@ -94,12 +93,62 @@ Uma das vantagens notáveis é a simplificação do processo de commit. O VsCode
 
 Além disso, a integração profunda com o Git no VsCode permite que você visualize o histórico de commits, gerencie branches e resolva conflitos de maneira mais eficiente, tudo dentro do ambiente de desenvolvimento.
 
-#'GitLens' é a extensão necessária para ser possível visualizar o horário, a data, a mensagem do commit e quem o fez.
+*'GitLens'* é a extensão necessária para ser possível visualizar o horário, a data, a mensagem do commit e quem o fez, como na imagem abaixo, bem como, ter acesso a uma interface que mostra a working tree do projeto.
 
 |       |
 |-------|
 | <img src="https://github.com/ProjetoHardTech/CommitMentor/blob/main/assets/gitlens_example.png" alt="GitLens" width="200"/> |
 
+Ao começar um novo projeto do ZERO no VsCode, segue os passos nacessários:
+
+1. Criar uma pasta nova na máquina e abrir uma nova janela no VsCode, e abri-la em File > Open Folder (abrir pasta);
+2. Abrir os pacotes necessários para a linguagem/frameworkç
+3. Para salvar em um repositório remoto no GitHub e fazer o primeiro commit antes de colocar a mão na massa:
+    3. 1. Criar um novo repositório no GitHub
+    3. 2.  Abrir o terminal integrado no VsCode e ir de acordo com a tabela:
+<table>
+  <thead>
+    <tr>
+      <th>Comando</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td><code>git init</code></td>
+      <td>Inicializa o git na pasta local</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>git remote add origin <HTTPS do repositório> </code></td>
+      <td>Adciona/Conecta o repositório remoto ao repositório local</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>git add . </code></td>
+      <td>Para adicionar todos os arquivos novos no staging area</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>git commit -m "mensagem-do-commit" </code></td>
+      <td>Grava os arquivos do staging area no repositorio local</td>
+      <td></td>
+    </tr>
+     <tr>
+      <td><code>git push </code></td>
+      <td>Envia os arquivos do respositorio local para o remoto</td>
+      <td></td>
+    </tr>
+
+Pronto, feito isso, os passos ficam mais simples ao fazer uma nova modificação, veja:
+
+1. Ir para o Source Control;
+2. Clicar no (+) em "Changes" para move-lo para "Staged Changes";
+3. Adicionar uma mensagem de commit logo acima e clicar em  "Commit" e posteriormente em "Sync changes"
+
+
+  </tbody>
+</table>
 
 ## Contribuição ✨
 
