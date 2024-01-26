@@ -68,4 +68,4 @@ Portanto, esse guia vai te auxiliar em seus estudos e te ajudar a compartilhar s
 
 ## Contribuição ✨
 
-Ajude este projeto a ficar ainda melhor. Saiba mais como contribuir clicando *[aqui]()** e a **[licença]()**.
+Ajude este projeto a ficar ainda melhor. Saiba mais como contribuir clicando **[aqui](https://github.com/ProjetoHardTech/CommitMentor/blob/main/CONTRIBUTING.md)** e a **[licença](https://github.com/ProjetoHardTech/CommitMentor/blob/main/LICENSE.md)**.
