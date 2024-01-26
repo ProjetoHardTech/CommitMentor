@@ -96,10 +96,6 @@ Além disso, a integração profunda com o Git no VsCode permite que você visua
 
 #'GitLens' é a extensão necessária para ser possível visualizar o horário, a data, a mensagem do commit e quem o fez.
 
-|       |
-|-------|
-| <img src="https://github.com/ProjetoHardTech/CommitMentor/blob/main/assets/gitlens_example.png" alt="GitLens" width="200"/> |
-
 
 
 ## Contribuição ✨
