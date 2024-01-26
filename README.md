@@ -86,7 +86,8 @@ s
 </table>
 
 
-## Git no Visual Studio Code
+# Git no Visual Studio Code
+
 Utilizar o Git no Visual Studio Code traz diversas facilidades adicionais que contribuem para uma experiência de desenvolvimento mais eficiente. O ambiente integrado oferece um terminal embutido, permitindo a execução de comandos Git diretamente do editor. Além disso, a integração do VsCode com o Git possibilita a utilização de extensões específicas para o controle de versão, oferecendo recursos adicionais e personalizados.
 
 Uma das vantagens notáveis é a simplificação do processo de commit. O VsCode fornece uma interface gráfica intuitiva que facilita a seleção e visualização das alterações feitas nos arquivos. Isso torna o commit mais acessível, especialmente para desenvolvedores que preferem uma abordagem visual ou que estão começando a trabalhar com controle de versão.
@@ -100,7 +101,7 @@ Além disso, a integração profunda com o Git no VsCode permite que você visua
 |-------|
 | <img src="https://github.com/ProjetoHardTech/CommitMentor/blob/main/assets/gitlens_example.png" alt="GitLens" width="200"/> |
 
-# Projeto NOVO no VsCode
+## Projeto NOVO no VsCode
 Ao começar um novo projeto do ZERO no VsCode, segue os passos nacessários:
 
 1. Criar uma pasta nova na máquina e abrir uma nova janela no VsCode, e abri-la em File > Open Folder (abrir pasta);
@@ -150,6 +151,54 @@ Feito isso, os passos ficam mais simples ao fazer uma nova modificação, veja:
 1. Ir para o Source Control;
 2. Clicar no (+) em "Changes" para move-lo para "Staged Changes";
 3. Adicionar uma mensagem de commit logo acima e clicar em  "Commit" e posteriormente em "Sync changes" para ser atualizado no repositorio remoto. Visualize o processo descrito clicando **[aqui](https://github.com/ProjetoHardTech/CommitMentor/blob/main/assets/comit-on-vscode.png)** .
+
+
+## Projeto existente no VsCode
+1. Criar uma pasta nova na máquina e abrir uma nova janela no VsCode, e abri-la em File > Open Folder (abrir pasta);
+2. Abrir o terminal integrado no VsCode e ir de acordo com a tabela:
+
+<table>
+  <thead>
+    <tr>
+      <th>Comando</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td><code>git init</code></td>
+      <td>Inicializa o git na pasta local</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>git clone url-do-repositorio </code></td>
+      <td>Clonar o repositório remoto na repositório</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>git remote add origin url-do-repositorio </code></td>
+      <td>Adciona/Conecta o repositório remoto ao repositório local</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>git pull origin nome-da-branch </code></td>
+      <td>Fazer download de todos os novos recursos do repositório remoto no local</td>
+      <td></td>
+    </tr>
+    </tbody>
+</table>
+
+Vejamos, *'git clone'* e *'git pull'* têm objetivos diferentes. Mas basta seguir a ordem colocada na tabela que não dá problema.
+
+- *'git clone'*  é usado quando está começando um projeto e deseja ter todos os recursos da branch principal do repositório remotoç
+
+-  *'git pull'* é usando quando se deseja atualizar no repositório local as mudanças que foram feitas no repositório remoto por outras pessoas.
+
+
+# Versionamento de códigos com GitBash
+1.
+2.
+3.
 
 
 ## Contribuição ✨
